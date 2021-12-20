@@ -36,10 +36,10 @@
 
 #define MOVE(hor, vert) (MOVE_HOR(hor) + MOVE_VERT(vert))
 
-#define MOVE_UP MOVE_VERT(-1800)
-#define MOVE_DOWN MOVE_VERT(1800)
-#define MOVE_LEFT MOVE_HOR(-1800)
-#define MOVE_RIGHT MOVE_HOR(1800)
+#define MOVE_UP MOVE_VERT(-1400)
+#define MOVE_DOWN MOVE_VERT(1400)
+#define MOVE_LEFT MOVE_HOR(-1400)
+#define MOVE_RIGHT MOVE_HOR(1400)
 
 /* Mouse scroll behavior */
 #define SCROLL_VERT(vert) ((vert)&0xFFFF)
